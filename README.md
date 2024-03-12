@@ -1,2 +1,2 @@
 To download dataset run following command:
-bash download.sh celeba-hq-dataset
+"bash download.sh celeba-hq-dataset"
