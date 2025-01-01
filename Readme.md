@@ -13,36 +13,44 @@ To train the model, you'll need the CelebHQ-A dataset. Follow these steps:
 1. Download the dataset by running the following command:
    ```bash
    bash download.sh celeba-hq-dataset
+   ```
 
-2. After this you will have a zip folder("celeba_hq") inside "data" folder. Please extract it 
+2. After this you will have a zip folder ("celeba_hq") inside "data" folder. Please extract it 
 
 3. The data set would be in this format:
-    data/
-    ├── celeba_hq/
+    data/ └── celeba_hq/ 
 
 ## Training 
 
-To train the model run 
+1. To train the model run 
     ```bash
     python train.py --data_path /path/to/data --output_path /path/to/output
-
-for example run the script in this manner:
+    ```
+2. For example run the script in this manner:
     ```bash
     python train.py --data_path ./data --output_path ./output
+    ```
 
 ## Testing 
 
-For testing run the "test.ipynb" file
+For testing check the "test.ipynb" file
 
 ## Results
 
 Below are the results showcasing the feature transfer:
 
-    The first image is the primary input.
-    The second image is the secondary input.
-    The third image is the generated output.
-    
-    ```markdown
-    ![Alt Text](Face-GAN/results/combined_output_1.png)
-    ![Alt Text](Face-GAN/results/combined_output_2.png)
-    ![Alt Text](Face-GAN/results/combined_output_3.png)
+- The **first image** is the primary input.
+- The **second image** is the secondary input.
+- The **third image** is the generated output.
+
+### Example Outputs:
+
+#### Result 1:
+![Result 1](Face-GAN/results/combined_output_1.png)
+
+#### Result 2:
+![Result 2](Face-GAN/results/combined_output_2.png)
+
+#### Result 3:
+![Result 3](Face-GAN/results/combined_output_3.png)
+
