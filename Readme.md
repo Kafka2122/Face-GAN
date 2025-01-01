@@ -18,7 +18,11 @@ To train the model, you'll need the CelebHQ-A dataset. Follow these steps:
 2. After this you will have a zip folder ("celeba_hq") inside "data" folder. Please extract it 
 
 3. The data set would be in this format:
-    data/ └── celeba_hq/ 
+```
+    data
+    ├── celeba_hq
+    │
+```
 
 ## Training 
 
