@@ -46,11 +46,11 @@ Below are the results showcasing the feature transfer:
 ### Example Outputs:
 
 #### Result 1:
-![Result 1](Face-GAN/results/combined_output_1.png)
+![Result 1](results/combined_output_1.png)
 
 #### Result 2:
-![Result 2](Face-GAN/results/combined_output_2.png)
+![Result 2](results/combined_output_2.png)
 
 #### Result 3:
-![Result 3](Face-GAN/results/combined_output_3.png)
+![Result 3](results/combined_output_3.png)
 
